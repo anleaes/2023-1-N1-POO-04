@@ -1,0 +1,10 @@
+@startuml cinema
+
+class Sala{
+    - id int
+    - numeroSala int 
+    - qtdAssentos int 
+    + criarSala (numeroSala, qtdAssentos)
+    + editarSala (id)
+    + deletarSala (id)
+}
