@@ -1,0 +1,7 @@
+@startuml cinema
+
+class cinema{
+    - nome String
+    - endereço String
+
+}
