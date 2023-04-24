@@ -7,7 +7,8 @@ class Ingresso {
     - nomeFilme string
     + criarIngresso(id, numeroAssento, preco, nomeFilme)
     + editarIngresso(id)
-    + isUsado(self)
+    + deletarIngresso(idgit)
+    
 }
 
 @enduml
