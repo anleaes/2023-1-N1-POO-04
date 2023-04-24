@@ -1,0 +1,13 @@
+@startuml
+
+class Ingresso {
+    - id int
+    - numeroAssento int
+    - preco float
+    - nomeFilme string
+    + criarIngresso(id, numeroAssento, preco, nomeFilme)
+    + editarIngresso(id)
+    + isUsado(self)
+}
+
+@enduml
