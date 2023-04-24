@@ -1,4 +1,42 @@
-@startuml sessao 
+@startuml Cinema
+
+class cinema{
+    - nome String
+    - endereço String
+}
+
+class Ingresso {
+    - id int
+    - numeroAssento int
+    - preco float
+    - nomeFilme string
+    + criarIngresso(id, numeroAssento, preco, nomeFilme)
+    + editarIngresso(id)
+    + deletarIngresso(idgit)
+    
+}
+
+class Pessoa{
+    - id int
+    - nome String
+    - idade int
+    - Email String
+    - CPF int
+    - gênero String
+    + criarPessoa(nome, idade, Email, CPF, gênero)
+    + editarPessoa(id)
+    + deletarPessoa(id)
+
+}
+
+class Sala{
+    - id int
+    - numeroSala int 
+    - qtdAssentos int 
+    + criarSala (numeroSala, qtdAssentos)
+    + editarSala (id)
+    + deletarSala (id)
+}
 
 class Sessao{
     -id int
@@ -8,5 +46,4 @@ class Sessao{
     +cadastrarSessao(filme, sala)
     +deletarSessao(id)
 }
-
 @enduml
