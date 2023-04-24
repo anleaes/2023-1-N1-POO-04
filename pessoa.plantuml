@@ -1,6 +1,6 @@
 @startuml cinema 
 
-class pessoa{
+class Pessoa{
     - id int
     - nome String
     - idade int
