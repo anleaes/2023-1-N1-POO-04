@@ -1,0 +1,21 @@
+@startuml cinema 
+
+class pessoa{
+    - id int
+    - nome String
+    - idade int
+    - Email String
+    - CPF int
+    - gênero String
+    + criarPessoa(nome, idade, Email, CPF, gênero)
+    + editarPessoa(id)
+    + deletarPessoa(id)
+
+}
+
+
+class ingresso
+
+class vendedor
+
+class sala
