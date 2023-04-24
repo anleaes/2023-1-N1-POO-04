@@ -1,0 +1,12 @@
+@startuml sessao 
+
+class Sessao{
+    -id int
+    -filme string
+    -sala Sala
+    +consultarSessao(id)
+    +cadastrarSessao(filme, sala)
+    +deletarSessao(id)
+}
+
+@enduml
