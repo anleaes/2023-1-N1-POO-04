@@ -1,8 +1,12 @@
 @startuml Cinema
 
 class cinema{
+    - id int
     - nome String
     - endereço String
+    + criarSala(nome, endereço)
+    + editarSala(id)
+    + deletarSala(idgit)
 }
 
 class Ingresso {
