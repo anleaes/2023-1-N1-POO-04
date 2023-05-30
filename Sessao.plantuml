@@ -49,11 +49,12 @@ class Sessao{
     +consultarSessao(id)
     +cadastrarSessao(filme, sala)
     +deletarSessao(id)
+}
     
     cinema --> Ingresso
     Ingresso --> Pessoa
     Pessoa --> Sala
     Sala --> Sessao
     
-}
+
 @enduml
